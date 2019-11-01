@@ -1,0 +1,22 @@
+Question 1: Simple linear regression
+The file ./specs/MarkA question1.csv contains data about midterm and final
+term grades for a group of students.
+• Plot the data using matplotlib. Do midterm and final seem to have a
+linear relationship? Save your plot to ./output/marks.png
+• Use linear regression to generate a model for the prediction of a students
+final exam grade based on the students midterm grade in the course. Describe the model in your report.
+• According to your model, what will be the final exam grade of a student
+who received an 86 on the midterm exam?
+
+
+Question 2: Classification with Decision Tree
+The file ./specs/borrower question2.csv contains bank data about customers
+that may or may not be borrowers.
+• Filter out the TID attribute, as it is not useful for decision making.
+• Using sklearn decision trees, generate a decision tree using information gain as splitting criterion, and a minimum impurity decrease of 0.5.
+Leave everything else to its default value. Plot the resulting decision
+tree, and discuss the classification results. Save the produced tree into
+./output/tree high.png
+• Train another tree, but this time use a minimum impurity decrease of 0.1.
+Plot the resulting decision tree, and compare the results with the previous
+model you trained. Save the produced tree into ./output/tree low.png
