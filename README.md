@@ -1,2 +1,4 @@
 # Data_Mining
- 
+ 1. Association: This folder contains program(run.py) and dataset(inside specs folder) to apply Apriori and FPgrowth algorithm. The steps that have been performed on data are based on tasks that are written in report.docx file.
+ 2. Data_Transformation_Reduction_Discretisation: This folder contains program(run.py) and dataset(inside specs folder) to do MinMax Normalization, Reducing attributes using Principal Component Analysis(PCA) and Discretising through equal width and equal frequency on data. The steps that have been performed on data are based on tasks that are written in report.docx file.
+ 3. Regression & classification: This folder contains program(run.ipynb) and dataset(inside specs folder) to do Linear regression and Decision tree classfication using sklearn on the dataset. The steps that have been performed on data are based on tasks that are written in report.docx file.
